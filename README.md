@@ -1,6 +1,8 @@
 # traducteur_morse
 Traducteur de code Morse sur Arduino Nano ATmega 328.
 
+Retrouvez ici la vidéo de démonstration : https://www.youtube.com/
+
 <h2>Matériel</h2>
 
 * 1 Arduino Nano ATmega 328 ;
