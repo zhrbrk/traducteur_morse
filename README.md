@@ -25,8 +25,8 @@ Note : le schéma de branchement est disponible dans les fichiers du projet.
   Si la pression dépasse 0.7s, il ne se passe rien.
   /!\ Ces valeurs peuvent être modifiées aux lignes 244 pour le point '.' et 255 pour le tiret '_'.
 
-Si au bout de 2s, aucun caractère supplémentaire n'est ajouté, le traducteur considère que le code Morse de la lettre est terminé et l'interprète.
-/!\ Cette valeur peut être modifiée à la ligne 213, dans la condition de la boucle if-else.
+  Si au bout de 2s, aucun caractère supplémentaire n'est ajouté, le traducteur considère que le code Morse de la lettre est terminé et l'interprète.
+  /!\ Cette valeur peut être modifiée à la ligne 213, dans la condition de la boucle if-else.
 
 * Le bouton poussoir relié à la broche D2 permet de supprimer le mot entièrement ou la lettre en cours :
   - Une pression entre 0 et 0.2s permet de supprimer la lettre en cours de frappe (et non pas la dernière lettre interprétée par le traducteur) ;
