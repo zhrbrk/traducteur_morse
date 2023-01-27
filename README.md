@@ -25,6 +25,7 @@ Note : le schéma de branchement est disponible dans les fichiers du projet.
   Si la pression dépasse 0.7s, il ne se passe rien.
   /!\ Ces valeurs peuvent être modifiées aux lignes 253 ou 269, ou en cherchant (Ctrl+F) : "Modifier temps pression pour le point" et "Modifier temps pression pour le tiret".
 
+Si au bout de 2s, aucun caractère supplémentaire n'est ajouté, le traducteur considère que le code Morse de la lettre est terminé et l'interprète.
 
 * Le bouton poussoir relié à la broche D2 permet de supprimer le mot entièrement ou la lettre en cours :
   - Une pression entre 0 et 0.2s permet de supprimer la lettre en cours de frappe (et non pas la dernière lettre interprétée par le traducteur) ;
